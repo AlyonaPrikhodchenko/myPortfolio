@@ -1,0 +1,60 @@
+.page__body--dark {
+  .header {
+    background-image: linear-gradient(to bottom, #3a3a3a, #8a8885);
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .header__link {
+    color: #ffffff;
+  }
+
+  .header__button {
+    box-shadow: 0 0 7px 5px rgba(255, 255, 255, 0.5);
+  }
+
+  .main {
+    background-image: linear-gradient(to top, #3a3a3a, #8a8885);
+  }
+
+  .main__title {
+    color: #ffffff;
+  }
+
+  .about {
+    color: #ffffff;
+  }
+
+  .about__item::before {
+    background-color: #ffffff;
+  }
+
+  .swiper__title {
+    color: #ffffff;
+  }
+
+  .swiper__title-slide {
+    color: #ffffff;
+  }
+
+  .swiper__description {
+    color: #ffffff;
+  }
+
+  .swiper__link {
+    color: #ffffff;
+  }
+
+  .swiper .swiper-button-prev::after,
+  .swiper .swiper-button-next::after {
+    color: #ffffff;
+  }
+
+  .footer {
+    background-image: linear-gradient(to bottom, #3a3a3a, #8a8885);
+    border-top: 1px solid #ffffff;
+  }
+
+  .footer__link {
+    color: #ffffff;
+  }
+}

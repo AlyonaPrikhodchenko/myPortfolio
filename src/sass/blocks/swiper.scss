@@ -1,0 +1,70 @@
+.swiper {
+  width: 1000px;
+  margin-bottom: 60px;
+}
+
+.swiper__title {
+  margin-bottom: 60px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.swiper__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper__title-slide {
+  font-size: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.swiper__description {
+  width: 700px;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.swiper__link {
+  font-size: 18px;
+  line-height: 140%;
+  color: #000000;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:focus-visible {
+    outline: 1px solid #000000;
+    outline-offset: 2px;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  background-color: transparent;
+  border: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+  color: #000000;
+}
